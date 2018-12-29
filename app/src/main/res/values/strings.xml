@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Events</string>
+    <string name="title_activity_event_page">EventPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="About">About</string>
+    <string name="Photos">Photos</string>
+    <string name="Home">Home</string>
+    <string name="title_share">Share</string>
+    <string name="Location">Location</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
