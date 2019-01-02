@@ -45,7 +45,7 @@ public class SignUp extends AppCompatActivity {
         Artist artist = new Artist(key , name ,number);
         databaseusername.child(key).setValue(artist);
 
-        Intent in = new Intent(this , homePage.class);
+        Intent in = new Intent(this , HOMEPAGE.class);
         startActivity(in);
 
     }

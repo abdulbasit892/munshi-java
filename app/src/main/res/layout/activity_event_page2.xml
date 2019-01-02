@@ -11,19 +11,21 @@
     tools:context=".EventPage"
     android:weightSum="10"
     android:orientation="vertical"
+    android:background="#000"
     >
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="3.5"
-        android:src="@drawable/pic2"
-        android:scaleType="centerCrop"/>
+        android:src="@drawable/pics"
+        android:scaleType="centerCrop"
+        android:contentDescription="TODO" />
 
     <FrameLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="614dp"
+        android:layout_height="match_parent"
         android:layout_weight="2">
 
     </FrameLayout>
@@ -37,14 +39,17 @@
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"
             android:layout_width="0dp"
-            android:layout_height="114dp"
-            android:background="?android:attr/windowBackground"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:background="#000"
+            app:itemIconTint="#a6a6a6"
+            app:itemTextColor="#fff"
+            app:labelVisibilityMode="selected"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintVertical_bias="0.0"
             app:menu="@menu/navigation" />
     </android.support.constraint.ConstraintLayout>
 

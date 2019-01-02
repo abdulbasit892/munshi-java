@@ -26,9 +26,6 @@ public class ArtistList extends ArrayAdapter<Artist> {
 
     }
 
-
-
-
     @Override
     public View getView(int position,View convertView,ViewGroup parent) {
 

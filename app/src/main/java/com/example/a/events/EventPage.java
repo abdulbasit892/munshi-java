@@ -25,14 +25,8 @@ public class EventPage extends AppCompatActivity {
                 case R.id.navigation_Home:
                     transaction.replace(R.id.content,new HomeFragment()).commit();
                     return true;
-                case R.id.navigation_About:
-                    transaction.replace(R.id.content,new AboutFragment()).commit();
-                    return true;
                 case R.id.navigation_Photos:
                     transaction.replace(R.id.content,new PhotosFragment()).commit();
-                    return true;
-                case R.id.navigation_share:
-                    transaction.replace(R.id.content,new ShareFragment()).commit();
                     return true;
                 case R.id.navigation_Location:
                     transaction.replace(R.id.content,new LocationFragment()).commit();
